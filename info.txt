@@ -1,0 +1,24 @@
+API KEY:   9379bf15161a3f61d80c761472ebfd24
+
+API READ ACCESS TOKEN:      eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5Mzc5YmYxNTE2MWEzZjYxZDgwYzc2MTQ3MmViZmQyNCIsInN1YiI6IjY2NWI3NTM5N2E2ZWVjYWVlNDA3NWNlZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.uCN-yRmpKzVYuyT9_FYA02zYoadycBjzo11zs_g9A3w
+
+BASE URL:
+https://api.themoviedb.org/3
+
+INDIVIDUAL:
+https://api.themoviedb.org/3/movie/now_playing/{movie_id}?api_key=9379bf15161a3f61d80c761472ebfd24
+
+NOW PLAYING:
+https://api.themoviedb.org/3/movie/now_playing?api_key=9379bf15161a3f61d80c761472ebfd24
+
+POPULAR:
+https://api.themoviedb.org/3/person/popular?api_key=9379bf15161a3f61d80c761472ebfd24
+
+TOP RATED:
+https://api.themoviedb.org/3/movie/top_rated?api_key=9379bf15161a3f61d80c761472ebfd24
+
+UPCOMING:
+https://api.themoviedb.org/3/movie/upcoming?api_key=9379bf15161a3f61d80c761472ebfd24
+
+SEARCH:
+https://api.themoviedb.org/3/search/movie?query=avatar&api_key=9379bf15161a3f61d80c761472ebfd24
