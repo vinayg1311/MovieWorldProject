@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Logo  from "../assets/logo.png"
-import { NavLink, json, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 
 export const Header = () => {

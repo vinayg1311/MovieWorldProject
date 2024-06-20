@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useEffect,useState } from 'react';
 
 export const useFetch = ({apiPath,queryTerm=""}) => {
