@@ -29,7 +29,7 @@ export const MovieDetail = () => {
           <h1 className='text-3xl font-bold my-3'>{movieInfo.original_title}</h1>
           <p className='my-4'>{movieInfo.overview}</p>
           <div className='flex flex-row'>
-          {movieInfo.genres ? (movieInfo.genres.map((genre)=>(<button type="button" className="text-gray-900 bg-white border border-gray-300 font-medium rounded-lg text-sm px-6 py-3 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:focus:ring-gray-700 w-36" key={genre.id}>{genre.name}</button>))) : ""}          
+          {movieInfo.genres ? (movieInfo.genres.map((genre)=>(<span className="mr-2 border border-gray-200 rounded dark:border-gray-600 p-2" key={genre.id}>{genre.name}</span>))) : ""}          
           </div>
           <div className="flex items-center">
               <svg className="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
